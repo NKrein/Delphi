@@ -13,11 +13,12 @@ type
     background: TImage;
     Shape1: TShape;
     Image1: TImage;
-    Edit1: TEdit;
-    Edit2: TEdit;
+    InputUser: TEdit;
+    InputPass: TEdit;
     Label1: TLabel;
     Label2: TLabel;
     BtnLogin: TButton;
+    procedure BtnLoginClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,5 +31,20 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TLoginForm.BtnLoginClick(Sender: TObject);
+var
+  user: string;
+  pass: string;
+begin
+  user := 'admin';
+  pass := '1234';
+
+  if (InputUser.Text = user) and (InputPass.Text = pass) then
+    ShowMessage ('Successful Login!')
+  else
+    ShowMessage ('Try again!')
+
+end;
 
 end.
