@@ -1,0 +1,38 @@
+unit uTypeProduct;
+
+interface
+
+uses
+
+     System.SysUtils, System.Classes;
+
+type
+
+    TAtr = class(TCollectionItem)
+
+    public
+        Nombre  : string;
+        Valor   : string;
+        Unidad  : string;
+        function toString: string;
+    end;
+
+    TProd = class
+
+    private
+        prod  : string;
+        id    : string;
+
+    public
+        clDet : TCollection;
+        //
+        constructor   Create;
+        destructor    Destroy; override;
+        //
+        property producto : string read prod write prod;
+        property idProd : string read id write id;
+    end;
+
+implementation
+
+end.

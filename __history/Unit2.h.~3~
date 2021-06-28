@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+//---------------------------------------------------------------------------
+class TTfrmProducto : public TForm
+{
+__published:	// IDE-managed Components
+	TEdit *Edit1;
+	TLabel *Label1;
+	TEdit *Edit2;
+	TLabel *Label2;
+	TListBox *ListBox1;
+	TButton *BtnAgregar;
+	TButton *BtnMostrar;
+	TButton *BtnEliminar;
+	TButton *BtnAgrAtr;
+	TButton *BtnEditAtr;
+	void __fastcall ListBox1Click(TObject *Sender);
+	void __fastcall BtnAgrAtrClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TTfrmProducto(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TTfrmProducto *TfrmProducto;
+//---------------------------------------------------------------------------
+#endif
