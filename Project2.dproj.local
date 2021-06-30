@@ -1,9 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/06/26 19:30:28.332,=C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/06/26 19:43:01.815,C:\Users\Krein\Desktop\delphi\Unit2.pas=C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/06/26 19:43:01.815,C:\Users\Krein\Desktop\delphi\Unit2.dfm=C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2021/06/26 19:43:11.342,C:\Users\Krein\Desktop\delphi\Project2.dproj=C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+	<Transactions>
+    <Transaction>2021/06/26 19:30:28.000.332,=C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/06/26 19:43:01.000.815,C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Krein\Desktop\delphi\Unit2.pas</Transaction>
+    <Transaction>2021/06/26 19:43:01.000.815,C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Krein\Desktop\delphi\Unit2.dfm</Transaction>
+    <Transaction>2021/06/26 19:43:11.000.342,C:\Users\Krein\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Krein\Desktop\delphi\Project2.dproj</Transaction>
+    <Transaction>2021/06/28 15:11:00.000.824,=C:\Users\Krein\Desktop\delphi\Unit3.pas</Transaction>
+    <Transaction>2021/06/28 15:12:11.000.009,C:\Users\Krein\Desktop\delphi\uFrmProduct.dfm=C:\Users\Krein\Desktop\delphi\Unit2.dfm</Transaction>
+    <Transaction>2021/06/28 15:12:11.000.009,C:\Users\Krein\Desktop\delphi\uFrmProduct.pas=C:\Users\Krein\Desktop\delphi\Unit2.pas</Transaction>
+    <Transaction>2021/06/28 15:12:35.000.067,C:\Users\Krein\Desktop\delphi\uTypeProduct.pas=C:\Users\Krein\Desktop\delphi\Unit3.pas</Transaction>
+    <Transaction>2021/06/30 18:22:57.405,=C:\Users\Krein\Desktop\delphi\Unit2.pas</Transaction>
+    <Transaction>2021/06/30 18:23:33.277,C:\Users\Krein\Desktop\delphi\uFrmAtributo.pas=C:\Users\Krein\Desktop\delphi\Unit2.pas</Transaction>
+    <Transaction>2021/06/30 18:23:33.278,C:\Users\Krein\Desktop\delphi\uFrmAtributo.dfm=C:\Users\Krein\Desktop\delphi\Unit2.dfm</Transaction>
   </Transactions>
 </BorlandProject>

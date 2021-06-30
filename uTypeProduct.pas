@@ -14,6 +14,7 @@ type
         Nombre  : string;
         Valor   : string;
         Unidad  : string;
+
         function toString: string;
     end;
 
@@ -31,13 +32,28 @@ type
         //
         property producto : string read prod write prod;
         property idProd : string read id write id;
+
+        procedure AgregarItem(nombre: string; valor: string ; unidad: string);
+
     end;
 
 implementation
 
     //Tprod
 
-    constructor TProd.Create;
+procedure TProd.AgregarItem(nombre, valor, unidad: string);
+
+  var
+      item : TAtr;
+begin
+    item := TAtr.Create(clDet);
+    item.Nombre := nombre;
+    item.Valor := valor;
+    item.Unidad := unidad;
+
+end;
+
+constructor TProd.Create;
     begin
       clDet := TCollection.Create(TAtr);
     end;
@@ -50,7 +66,7 @@ implementation
 
     //Tatr
 
-    function TAtr.toString;
+    function TAtr.toString : string;
     begin
       Result := self.Nombre + ':' + self.Valor + self.Unidad
     end;

@@ -1,0 +1,15 @@
+program Project2;
+
+uses
+  Vcl.Forms,
+  uFrmProduct in 'uFrmProduct.pas',
+  uTypeProduct in 'uTypeProduct.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmProducto, frmProducto);
+  Application.Run;
+end.

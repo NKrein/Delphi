@@ -35,6 +35,7 @@ object frmProducto: TfrmProducto
     Height = 25
     Caption = 'Agregar'
     TabOrder = 0
+    OnClick = BtnAgregarClick
   end
   object BtnEliminar: TButton
     Left = 152
@@ -51,6 +52,7 @@ object frmProducto: TfrmProducto
     Height = 25
     Caption = 'Mostrar'
     TabOrder = 2
+    OnClick = BtnMostrarClick
   end
   object BtnAgrAtr: TButton
     Left = 352
@@ -59,6 +61,7 @@ object frmProducto: TfrmProducto
     Height = 49
     Caption = 'Agregar atributo'
     TabOrder = 3
+    OnClick = BtnAgrAtrClick
   end
   object ListBox1: TListBox
     Left = 56
