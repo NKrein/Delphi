@@ -1,0 +1,14 @@
+object dmCliente: TdmCliente
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object tTiposClientes: TADOQuery
+    Parameters = <>
+    SQL.Strings = (
+      'SELECT [id]'
+      '      ,[descripcion]'
+      '  FROM [pruebasdb].[dbo].[t_tiposClientes]')
+    Left = 152
+    Top = 40
+  end
+end

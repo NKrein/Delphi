@@ -9,8 +9,7 @@ uses
 type
   TfrmProducto = class(TForm)
     BtnAgregar: TButton;
-    BtnEliminar: TButton;
-    BtnMostrar: TButton;
+    BtnElimAtr: TButton;
     BtnAgrAtr: TButton;
     ListBox1: TListBox;
     BtnEdiAtr: TButton;
@@ -21,6 +20,7 @@ type
     procedure BtnAgregarClick(Sender: TObject);
     procedure BtnMostrarClick(Sender: TObject);
     procedure BtnAgrAtrClick(Sender: TObject);
+    procedure BtnEdiAtrClick(Sender: TObject);
 
   private
     { Private declarations }
@@ -79,6 +79,21 @@ begin
 
 end;
 
+
+procedure TfrmProducto.BtnEdiAtrClick(Sender: TObject);
+begin
+
+    frmAtributo.ShowModal;
+
+    frmAtributo.EditNombre.Text := TAtr( product.clDet.Items[0]).Nombre;
+    frmAtributo.EditValor.Text := TAtr( product.clDet.Items[0]).Valor;
+    frmAtributo.EditUnidad.Text := TAtr( product.clDet.Items[0]).Unidad;
+
+
+
+
+
+end;
 
 function TfrmProducto.ValidarEntrada;
 

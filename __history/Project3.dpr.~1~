@@ -1,0 +1,22 @@
+program Project3;
+
+uses
+  Vcl.Forms,
+  uFrmPrincipal in '..\..\Documents\Embarcadero\Studio\Projects\uFrmPrincipal.pas' {frmPrincipal},
+  uFrmBase in '..\..\Documents\Embarcadero\Studio\Projects\uFrmBase.pas' {frmBase},
+  uDmConexion in '..\..\Documents\Embarcadero\Studio\Projects\uDmConexion.pas' {dmConexion: TDataModule},
+  uFrmPedidos in '..\..\Documents\Embarcadero\Studio\Projects\uFrmPedidos.pas' {frmPedidos},
+  uFrmClientes in '..\..\Documents\Embarcadero\Studio\Projects\uFrmClientes.pas' {frmClientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmBase, frmBase);
+  Application.CreateForm(TdmConexion, dmConexion);
+  Application.CreateForm(TfrmPedidos, frmPedidos);
+  Application.CreateForm(TfrmClientes, frmClientes);
+  Application.Run;
+end.

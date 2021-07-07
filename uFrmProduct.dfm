@@ -30,46 +30,37 @@ object frmProducto: TfrmProducto
   end
   object BtnAgregar: TButton
     Left = 56
-    Top = 272
+    Top = 81
     Width = 75
     Height = 25
     Caption = 'Agregar'
     TabOrder = 0
     OnClick = BtnAgregarClick
   end
-  object BtnEliminar: TButton
-    Left = 152
-    Top = 272
-    Width = 75
-    Height = 25
-    Caption = 'Eliminar'
+  object BtnElimAtr: TButton
+    Left = 352
+    Top = 260
+    Width = 99
+    Height = 49
+    Caption = 'Eliminar Atributo'
     TabOrder = 1
-  end
-  object BtnMostrar: TButton
-    Left = 248
-    Top = 272
-    Width = 75
-    Height = 25
-    Caption = 'Mostrar'
-    TabOrder = 2
-    OnClick = BtnMostrarClick
   end
   object BtnAgrAtr: TButton
     Left = 352
-    Top = 112
+    Top = 120
     Width = 99
     Height = 49
     Caption = 'Agregar atributo'
-    TabOrder = 3
+    TabOrder = 2
     OnClick = BtnAgrAtrClick
   end
   object ListBox1: TListBox
     Left = 56
-    Top = 112
+    Top = 120
     Width = 267
-    Height = 129
+    Height = 189
     ItemHeight = 13
-    TabOrder = 4
+    TabOrder = 3
   end
   object BtnEdiAtr: TButton
     Left = 352
@@ -77,20 +68,21 @@ object frmProducto: TfrmProducto
     Width = 99
     Height = 49
     Caption = 'Editar atributo'
-    TabOrder = 5
+    TabOrder = 4
+    OnClick = BtnEdiAtrClick
   end
   object EditProd: TEdit
     Left = 56
     Top = 51
     Width = 121
     Height = 21
-    TabOrder = 6
+    TabOrder = 5
   end
   object EditID: TEdit
     Left = 202
     Top = 51
     Width = 121
     Height = 21
-    TabOrder = 7
+    TabOrder = 6
   end
 end

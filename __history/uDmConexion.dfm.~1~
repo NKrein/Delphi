@@ -1,0 +1,13 @@
+object dmConexion: TdmConexion
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object ADOConnection1: TADOConnection
+    Left = 64
+    Top = 72
+  end
+  object ADOTable1: TADOTable
+    Left = 144
+    Top = 72
+  end
+end
